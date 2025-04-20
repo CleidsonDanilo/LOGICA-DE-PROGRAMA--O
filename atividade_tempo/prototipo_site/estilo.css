@@ -1,0 +1,71 @@
+/* Define uma fonte padrão para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estiliza o título principal */
+h1 {
+    color: #2c3e50; /* Azul escuro */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estiliza o rótulo */
+label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Estiliza o campo de entrada */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estiliza o botão */
+button {
+    background-color: #3498db; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+/* Estiliza o parágrafo de resultado */
+/* Mensagem válida (verde) */
+p#resultado.valido {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #27ae60; /* Verde */
+}
+
+/* Mensagem inválida (vermelho) */
+p#resultado.invalido {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: red; /* Vermelho */
+}
